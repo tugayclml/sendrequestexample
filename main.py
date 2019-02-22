@@ -30,7 +30,7 @@ def result():
 
       apptoken = "ag9zfnRlbGVmb25pLXRlc3RyHwsSElRlbmFudEFwcGxpY2F0aW9ucxiAgICw46OcCQyiARVzdGFnaW5nMS5hbG8tdGVjaC5jb20"
 
-      url = "http://staging1.alo-tech.com/api/?function=reportsCDRLogs&startdate="+sdate+"%20"+stime+":00&finishdate="+fdate+"%20"+ftime+":00&app_token="+apptoken
+      url = ""
 
       response = requests.get(url)
 
